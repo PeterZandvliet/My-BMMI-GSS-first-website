@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.box1 {
+    color: black;
+    font-size: x-large;
+    list-style: none;
+}
+.box2{
+    color: black;
+        font-size: x-large;
+            list-style: none;
+}
+.box3 {
+    color: black;
+        font-size: x-large;
+            list-style: none;
+}
+.Box4 {color: black;
+    font-size: x-large;
+        list-style: none;
+    }
+
+  @media screen and (max-width: 992px) {
+      body {
+          background-color: red;
+          color: white;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+      body {
+          background-color: rgb(6, 2, 253);
+          color: white;
+      }}
+.container1 {
+              display: grid;
+              grid-gap: 3px;
+              grid-template-columns: auto;
+              grid-template-rows: auto;
+              margin-top: 50px;
+              padding-left: 20%;
+          }
